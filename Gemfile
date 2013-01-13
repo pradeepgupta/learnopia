@@ -20,6 +20,8 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+gem 'therubyracer'
+gem 'execjs'
 
 group :test do
   gem 'capybara', '1.1.2'
